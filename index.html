@@ -18,17 +18,12 @@
     text-align: center;
     padding-top: 60px;
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      padding-top: 10px;
-    }
-  }
   img {
     max-width: 100%;
     width: 100%;
   }
   img.logo {
-    max-width: 500px;
+    max-width: 200px;
     margin: 0 auto;
   }
   img.spinny {
@@ -37,6 +32,15 @@
   }
   header p {
     margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      padding-top: 30px;
+    }
+    img.spinny {
+      max-width: 200px;
+    }
   }
 
   #authentication {
